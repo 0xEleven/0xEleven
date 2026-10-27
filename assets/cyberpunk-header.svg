@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 140" width="100%" height="auto">
+  <defs>
+    <style>
+      .mono-text {
+        font-family: ui-monospace, "SF Mono", "JetBrains Mono", "Cascadia Code", "Fira Code", Consolas, monospace;
+      }
+    </style>
+  </defs>
+
+  <!-- Deep lacquer dark background -->
+  <rect width="880" height="140" fill="#090A0F" />
+  
+  <!-- Subtle minimal border -->
+  <rect x="1" y="1" width="878" height="138" fill="none" stroke="#161B26" stroke-width="1" />
+
+  <!-- Cyberpunk Yellow and Cyan accent lines -->
+  <line x1="0" y1="0" x2="160" y2="0" stroke="#FCEE0A" stroke-width="3" />
+  <line x1="160" y1="0" x2="220" y2="0" stroke="#00F0FF" stroke-width="3" />
+  <polygon points="0,0 24,0 0,24" fill="#FCEE0A" />
+
+  <!-- Bottom right minimal accent notch -->
+  <line x1="820" y1="140" x2="880" y2="140" stroke="#00F0FF" stroke-width="3" />
+  <polygon points="880,140 856,140 880,116" fill="#00F0FF" opacity="0.6" />
+
+  <!-- Header Title -->
+  <g transform="translate(40, 52)">
+    <text x="0" y="0" fill="#FCEE0A" font-size="34" font-weight="900" letter-spacing="0.04em" class="mono-text">
+      0xEleven
+    </text>
+    <circle cx="168" cy="-10" r="4.5" fill="#00F0FF" />
+    <text x="185" y="-3" fill="#6B7D97" font-size="12" font-weight="500" letter-spacing="0.1em" class="mono-text">
+      // BADATCOMPS
+    </text>
+  </g>
+
+  <!-- Subtitle -->
+  <text x="40" y="80" fill="#E6EDF3" font-size="12.5" font-weight="600" letter-spacing="0.08em" class="mono-text">
+    SECURITY RESEARCH &amp; EXPLOIT ANALYSIS <tspan fill="#00F0FF">//</tspan> REVERSE ENGINEERING <tspan fill="#00F0FF">//</tspan> SYSTEMS
+  </text>
+
+  <!-- Telemetry badges bar -->
+  <g transform="translate(40, 102)">
+    <!-- Badge 1: Blog -->
+    <rect x="0" y="0" width="135" height="20" fill="#101520" stroke="#1F283B" stroke-width="1" />
+    <circle cx="8" cy="10" r="2.5" fill="#FCEE0A" />
+    <text x="16" y="14" fill="#8FA3BF" font-size="9.5" font-weight="600" class="mono-text">BLOG: xihacks.com</text>
+
+    <!-- Badge 2: Public repos -->
+    <rect x="145" y="0" width="125" height="20" fill="#101520" stroke="#1F283B" stroke-width="1" />
+    <circle cx="153" cy="10" r="2.5" fill="#00FF66" />
+    <text x="161" y="14" fill="#8FA3BF" font-size="9.5" font-weight="600" class="mono-text">REPOS: 47 PUBLIC</text>
+
+    <!-- Badge 3: Focus -->
+    <rect x="280" y="0" width="180" height="20" fill="#101520" stroke="#1F283B" stroke-width="1" />
+    <circle cx="288" cy="10" r="2.5" fill="#00F0FF" />
+    <text x="296" y="14" fill="#8FA3BF" font-size="9.5" font-weight="600" class="mono-text">FOCUS: MALWARE &amp; EXPLOITS</text>
+  </g>
+
+  <!-- Right side minimal status indicator -->
+  <g transform="translate(730, 48)">
+    <text x="0" y="0" fill="#4B586E" font-size="9.5" letter-spacing="0.1em" class="mono-text">HOST: GITHUB</text>
+    <text x="0" y="18" fill="#FCEE0A" font-size="11" font-weight="700" letter-spacing="0.05em" class="mono-text">ACTIVE</text>
+    <text x="0" y="36" fill="#00F0FF" font-size="9" font-weight="600" letter-spacing="0.08em" class="mono-text">GRID: 0x11</text>
+  </g>
+</svg>
