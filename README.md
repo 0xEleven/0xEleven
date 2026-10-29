@@ -15,7 +15,7 @@
 Security researcher, reverse engineer, and software developer working across binary analysis, exploit development, malware triage, and web security.
 
 - **Blog & Writeups:** [xihacks.com](https://xihacks.com)
-- **Focus Areas:** PE Binary Analysis · Exploit PoCs (CVE Research) · Web Application Security · Offensive Tooling
+- **Focus Areas:**  Binary Analysis · Exploit PoCs (CVE Research) · Web Application Security · Offensive Tooling
 - **Primary Languages:** Python · JavaScript / Node.js · C / C# · Shell
 
 ---
@@ -66,5 +66,5 @@ Security researcher, reverse engineer, and software developer working across bin
 ### `// CONNECT & TRANSMISSION`
 
 - **Blog:** [xihacks.com](https://xihacks.com)
-- **GitHub:** [@0xEleven](https://github.com/0xEleven)
+- **X:** [@0xEleven](https://github.com/0xEleven)
 - **Email:** [mosesateka@gmail.com](mailto:mosesateka@gmail.com)
